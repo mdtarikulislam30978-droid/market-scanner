@@ -10,7 +10,7 @@ HTML_TEMPLATE = """
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Market Pro Scanner - Lifetime Live</title>
+    <title>Market Pro Scanner - Lifetime Access</title>
     <style>
         * { box-sizing: border-box; margin: 0; padding: 0; }
         body {
@@ -74,22 +74,22 @@ HTML_TEMPLATE = """
 <body>
     <div class="main-container">
         <h1>Market Pro Scanner</h1>
-        <p>Status: Lifetime Active Access</p>
+        <p>Active Plan Duration: Lifetime Access Portal</p>
         
+        <button class="submit-btn">⚡ SCAN LIVE MARKET</button>
+
         <div class="signal-box">
             <div class="signal-row"><span>Market Trend:</span> <strong style="color: #34d399;">Bullish / Buy</strong></div>
             <div class="signal-row"><span>Volatility Score:</span> <strong style="color: #38bdf8;">Stable</strong></div>
             <div class="signal-row"><span>AI Master Index:</span> <strong style="color: #fbbf24;">Verified</strong></div>
         </div>
 
-        <button class="submit-btn">⚡ SCAN LIVE MARKET NOW</button>
-
         <div class="signal-badge">
             LIVE TRADING SIGNAL ACTIVE
         </div>
 
         <div class="warning-text">
-            ⚠️ Note: This portal is running on permanent lifetime access mode.
+            ⚠️ Note: This link is valid for lifetime access and operates automatically.
         </div>
     </div>
 </body>
