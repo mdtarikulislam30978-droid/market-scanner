@@ -1,3 +1,2 @@
 flask
-gunicornequests
-beautifulsoup4
+gunicornequestseautifulsoup4
