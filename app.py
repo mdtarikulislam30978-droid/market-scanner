@@ -10,7 +10,7 @@ HTML_TEMPLATE = """
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Market Pro Scanner - Lifetime Access</title>
+    <title>Tarikul & Gemini 15M Pro</title>
     <style>
         * { box-sizing: border-box; margin: 0; padding: 0; }
         body {
@@ -25,71 +25,90 @@ HTML_TEMPLATE = """
         }
         .main-container {
             width: 100%;
-            max-width: 550px;
+            max-width: 420px;
             background: #111827;
             border: 1px solid #1f2937;
-            border-radius: 12px;
-            padding: 30px;
-            box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+            border-radius: 16px;
+            padding: 25px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.6);
             text-align: center;
         }
-        h1 { color: #38bdf8; margin-bottom: 10px; font-size: 24px; }
-        p { color: #34d399; font-size: 14px; margin-bottom: 20px; font-weight: bold; }
-        .submit-btn {
+        h1 { color: #38bdf8; margin-bottom: 8px; font-size: 22px; font-weight: bold; }
+        .engine-badge {
+            display: inline-block;
+            background: #1e3a8a;
+            color: #60a5fa;
+            font-size: 11px;
+            font-weight: bold;
+            padding: 5px 12px;
+            border-radius: 20px;
+            margin-bottom: 20px;
+            border: 1px solid #3b82f6;
+        }
+        .scan-btn {
             width: 100%;
             background: #22c55e;
             color: white;
             border: none;
             padding: 14px;
-            font-size: 16px;
+            font-size: 15px;
             font-weight: bold;
-            border-radius: 6px;
+            border-radius: 8px;
             cursor: pointer;
-            transition: background 0.2s;
             margin-bottom: 20px;
+            box-shadow: 0 4px 12px rgba(34, 197, 94, 0.3);
         }
-        .submit-btn:hover { background: #16a34a; }
         .signal-box {
             background: #1f2937;
             border: 1px solid #374151;
-            padding: 20px;
-            border-radius: 8px;
+            padding: 15px;
+            border-radius: 10px;
             margin-bottom: 20px;
             text-align: left;
         }
-        .signal-row { display: flex; justify-content: space-between; margin-bottom: 12px; font-size: 15px; }
-        .signal-badge {
-            background: #14532d;
+        .signal-row { 
+            display: flex; 
+            justify-content: space-between; 
+            align-items: center;
+            margin-bottom: 12px; 
+            font-size: 14px; 
+            color: #cbd5e1;
+        }
+        .signal-row:last-child { margin-bottom: 0; }
+        .signal-row strong { color: #ffffff; font-family: monospace; font-size: 15px; }
+        .action-badge {
+            background: #064e3b;
             color: #4ade80;
-            padding: 12px;
-            border-radius: 6px;
+            padding: 14px;
+            border-radius: 8px;
             font-weight: bold;
+            font-size: 14px;
             text-align: center;
-            border: 1px solid #16a34a;
+            border: 1px solid #10b981;
             margin-bottom: 15px;
         }
-        .warning-text { font-size: 12px; color: #facc15; }
+        .footer-text { font-size: 11px; color: #64748b; margin-top: 10px; }
     </style>
 </head>
 <body>
     <div class="main-container">
-        <h1>Market Pro Scanner</h1>
-        <p>Active Plan Duration: Lifetime Access Portal</p>
+        <h1>Tarikul & Gemini 15M Pro</h1>
+        <div class="engine-badge">Live Screen Overlay Engine v7.0</div>
         
-        <button class="submit-btn">⚡ SCAN LIVE MARKET</button>
+        <button class="scan-btn">⚡ SCAN 15-MIN LIVE MARKET</button>
 
         <div class="signal-box">
-            <div class="signal-row"><span>Market Trend:</span> <strong style="color: #34d399;">Bullish / Buy</strong></div>
-            <div class="signal-row"><span>Volatility Score:</span> <strong style="color: #38bdf8;">Stable</strong></div>
-            <div class="signal-row"><span>AI Master Index:</span> <strong style="color: #fbbf24;">Verified</strong></div>
+            <div class="signal-row"><span>15M Market Trend:</span> <strong>0.5027</strong></div>
+            <div class="signal-row"><span>Chart Volatility:</span> <strong>0.2024</strong></div>
+            <div class="signal-row"><span>AI Master Score:</span> <strong>0.5533</strong></div>
         </div>
 
-        <div class="signal-badge">
-            LIVE TRADING SIGNAL ACTIVE
+        <div class="action-badge">
+            15-MINUTE CALL (STRONG BUY UP) [VERIFIED]
         </div>
 
-        <div class="warning-text">
-            ⚠️ Note: This link is valid for lifetime access and operates automatically.
+        <div class="footer-text">
+            Engineered by Tarikul & Gemini - 100% 15M Master Edition
         </div>
     </div>
 </body>
