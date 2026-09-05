@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarikul & Gemini - Market Scanner Access</title>
+    <style>
+        body { background-color: #0f172a; color: #f8fafc; font-family: Arial, sans-serif; margin: 0; padding: 20px; }
+        .container { max-width: 600px; margin: 0 auto; background: #1e293b; padding: 30px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.5); }
+        h1 { text-align: center; color: #38bdf8; }
+        .plan-box { background: #334155; padding: 15px; margin: 15px 0; border-radius: 8px; border: 1px solid #475569; }
+        .payment-methods { background: #0f172a; padding: 15px; border-radius: 8px; margin-top: 20px; }
+        .btn { display: block; width: 100%; background: #22c55e; color: white; padding: 12px; text-align: center; border: none; border-radius: 6px; font-size: 16px; font-weight: bold; cursor: pointer; text-decoration: none; margin-top: 15px; }
+        .btn:hover { background: #16a34a; }
+        .support-link { text-align: center; margin-top: 15px; }
+        .support-link a { color: #38bdf8; text-decoration: none; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Market Scanner Access Portal</h1>
+        <p style="text-align: center; color: #94a3b8;">Select your plan and complete payment to get instant secure access.</p>
+        
+        <div class="plan-box">
+            <h3>⚡ 1 Hour Access Plan</h3>
+            <p>Price: 100 BDT / $1</p>
+        </div>
+        <div class="plan-box">
+            <h3>⚡ 5 Hours Pro Plan</h3>
+            <p>Price: 400 BDT / $4</p>
+        </div>
+
+        <div class="payment-methods">
+            <h3>💳 Payment Accounts</h3>
+            <p><b>Bkash / Nagad / Rocket / Upay (Personal):</b> 01700000000</p>
+            <p><b>Bank Account:</b> Tarikul Islam - XXXX-XXXX-XXXX</p>
+            <p><b>Crypto (USDT TRC20):</b> TXXXXXXXXXXXXXXXXXXXXXXXXX</p>
+        </div>
+
+        <form action="/submit-payment" method="POST">
+            <label for="trx_id">Enter Transaction ID (TrxID) or Proof:</label>
+            <input type="text" id="trx_id" name="trx_id" required style="width: 100%; padding: 10px; margin-top: 8px; border-radius: 5px; border: 1px solid #64748b; background: #1e293b; color: white;">
+            <button type="submit" class="btn">Submit & Request Access</button>
+        </form>
+
+        <div class="support-link">
+            <p>Having trouble? <a href="https://t.me/YourTelegramSupportBot" target="_blank">Contact Telegram Support Bot</a></p>
+        </div>
+    </div>
+</body>
+</html>
